@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.matrix {
+.header__img {
   width: 100%;
 }
 
-.header .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-row {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -74,7 +74,7 @@ button {
 /* Heading */
 
 .heading,
-.add-task {
+.add-task__header {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +104,7 @@ button {
 
 /* New Task */
 
-.add-task {
+.add-task__header {
   display: block;
   margin: 0 0 20px;
 }
