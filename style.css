@@ -85,7 +85,6 @@ button {
 }
 
 .row {
-  display: none;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,6 +96,8 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
+.row.edit
 
 .row:focus {
   color: #333;
@@ -161,6 +162,10 @@ button {
 }
 
 /* Edit Task */
+.list .row {
+    display: none;
+}
+
 .list-item.edit-mode .row {
   display: inline-block;
   width: 224px;
