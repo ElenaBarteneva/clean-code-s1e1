@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row {
@@ -138,7 +138,7 @@ input,button{
 }
 
 .list-item > .row {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete .delete-img {
@@ -154,14 +154,14 @@ input,button{
 /* Completed */
 
 #done-tasks .name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-item.edit-mode .row {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-item.edit-mode .name {
